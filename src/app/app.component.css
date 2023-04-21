@@ -1,0 +1,18 @@
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.ul-div{
+    display: flex;
+    list-style: none;
+   
+}
+.ul-div>li{
+    padding: 50px;
+
+}
+.bold{
+    font-size:xx-large;
+    color: brown;
+}

@@ -1,0 +1,16 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="main-div">
+    <div  class="bold">
+      <b>MY PASTRY</b>
+    </div>
+    <br>
+    <div>
+      <ul class="ul-div">
+        <li [routerLink]="['/Home']" id="home">Home</li>
+        <li [routerLink]="['/Menu']" id="menu">Menu</li>
+        <li [routerLink]="['/Contact-us']" id="contact"> Contact Us</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
